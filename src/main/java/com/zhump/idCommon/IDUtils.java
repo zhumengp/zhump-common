@@ -1,10 +1,10 @@
-package com.montnets.bac;
+package com.zhump.idCommon;
 
 import java.lang.management.ManagementFactory;
 import java.net.InetAddress;
 import java.net.NetworkInterface;
 
-import org.apache.commons.lang3.StringUtils;
+import com.zhump.stringCommon.StringUtils;
 /**
  * <p>名称：IDUtils.java</p>
  * <p>描述：分布式自增长ID</p>
