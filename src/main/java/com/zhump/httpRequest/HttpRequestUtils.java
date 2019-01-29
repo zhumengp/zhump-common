@@ -48,6 +48,7 @@ import org.apache.http.util.EntityUtils;
 
 /**
  * http请求帮助类
+ * 可以放在分布式高并发里面使用，具有高吞吐量。
  */
 public class HttpRequestUtils {
 	private static final Log log = LogFactory.getLog(HttpRequestUtil.class);

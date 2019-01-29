@@ -18,6 +18,7 @@ import org.apache.commons.logging.LogFactory;
 
 /**
  * http请求帮助类
+ * 普通工具类，当多线程过大时。可能中间会请求不过去
  */
 public class HttpRequestUtil {
 	private static final Log log = LogFactory.getLog(HttpRequestUtil.class);
